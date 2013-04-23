@@ -1,0 +1,44 @@
+html, body { overflow-x:hidden; }
+body{ background:#D3D3D3; }
+#skrollr-body{ overflow:hidden; }
+
+/* Home part */
+#home{ height:900px; }
+#home .masked{ width:960px; height:900px; background-image:url("../images/masked.jpg"); background-repeat:no-repeat; background-position:left bottom; position:fixed; }
+
+#home .mask{ width:960px; height:900px; background-image:url("../images/mask.png"); background-repeat:no-repeat; background-position:left center; position:relative; overflow:hidden; }
+#home .mask .intro { width:600px; padding:220px 100px 0 0; margin:10px auto; }
+#home .mask .intro h1{ font-family: "SteelfishRgBold"; color:white; }
+#home .mask .intro h2{ font-family: "SteelfishRgBold"; color:white; }
+
+#home .mask-arrow{ width:724px; height:900px; background-image:url("../images/arrow.png"); background-repeat:no-repeat; background-position:left center; position:absolute; top:0; left:10px; overflow:hidden; }
+
+/* About part */
+#about{ width:100%; height:900px; background:url("../images/bg.gif"); position:relative; overflow:hidden; }
+
+#about .menu{ position:absolute; top:0; z-index:5; }
+#about .menu li{ -webkit-transform:rotate(0deg); }
+#about .menu li:hover{ -webkit-transform:rotate(360deg); -webkit-transition: all 0.3s ease 0s; }
+#about .menu .home,#about .menu .about,#about .menu .works,#about .menu .contact{ display:inline-block; width:100px; height:100px; text-indent:-9999px; cursor:pointer; }
+#about .menu .home{ background:url("../images/home.png") no-repeat; }
+#about .menu .about{ background:url("../images/about.png") no-repeat; }
+#about .menu .works{ background:url("../images/works.png") no-repeat; }
+#about .menu .contact{ background:url("../images/contact.png") no-repeat; }
+#about .intro{position:relative;z-index:3;}
+#about .intro .chinese-name{font-size:18px;font-family:"微软雅黑";}
+
+#bg1,
+#bg2 { top: 0; left: 0; width: 100%; height: 100%; position:absolute; }
+#bg1 { z-index:2; background-image: url("../images/diamond.png"); }
+#bg2 { z-index:1; background-image: url("../images/diamond2.png"); }
+
+/* Work part */
+#works{ width:100%; height:900px; }
+
+/* Contact part */
+#contact{ width:100%; height:900px; }
+
+
+/* Global part */
+.next-button{ display:block; width:80px; height:80px; background-image:url("../images/next.png"); background-repeat:no-repeat; position:fixed; right:0; top:0; margin:-10px 0 0 0; z-index:5; }
+.top-button{ display:block; width:80px; height:80px; background-image:url("../images/top.png"); background-repeat:no-repeat; position:fixed; right:0; bottom:0; margin:0 0 -10px 0; z-index:5; }

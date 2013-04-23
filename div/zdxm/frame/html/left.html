@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+<script type="text/javascript" src="dtree.js"></script>
+<link rel="stylesheet" type="text/css"  href="dtree.css" />
+</head>
+
+<body style="overflow-x:hidden">
+	<div id="Treeview" class="dtree">
+              <p>
+		<a href="javascript: d.openAll();">展开全部</a> |
+		<a href="javascript: d.closeAll();">关闭全部</a>
+	</p>
+	<script type="text/javascript">
+		<!--
+
+		var d = new dTree('d'); 
+		// Node(id, pid, name, url, title, target, icon, iconOpen, open) 
+		
+		d.add(0,-1,'返回导航页','content.html','导航','mainFrame','','/images/tree/imgfolder.gif');
+			d.add(1,0,'专业一');
+				d.add(2,1,'A.项目建设规划书','content.html','项目建设规划书','mainFrame'); 
+				d.add(3,1,'B.项目年底建设情况报告书','content.html','项目年底建设情况报告书','mainFrame');
+				d.add(4,1,'C.项目年底建设情况表','content.html','项目年底建设情况表','mainFrame');
+				d.add(5,1,'D.附件');
+					d.add(6,5,'a.附件一','content.html','附件一','mainFrame');
+					d.add(7,5,'b.附件二','content.html','附件二','mainFrame');
+					d.add(8,5,'c.附件三','content.html','附件三','mainFrame');
+					
+			d.add(20,0,'专业二');
+				d.add(21,20,'A.项目建设规划书','content.html','项目建设规划书','mainFrame'); 
+				d.add(22,20,'B.项目年底建设情况报告书','content.html','项目年底建设情况报告书','mainFrame');
+				d.add(23,20,'C.项目年底建设情况表','content.html','项目年底建设情况表','mainFrame');
+				d.add(24,20,'D.附件');
+					d.add(25,24,'a.附件一','content.html','附件一','mainFrame');
+					d.add(26,24,'b.附件二','content.html','附件二','mainFrame');
+					d.add(27,24,'c.附件三','content.html','附件三','mainFrame');
+					
+		document.write(d);
+		
+		//-->
+	</script>
+            </div>
+</body>
+</html>

@@ -1,0 +1,163 @@
+@charset "utf-8";
+/* CSS Document */
+body
+{
+	font-size:12px;
+	margin:0px;
+}
+div#Container
+{
+	border-top:8px solid #007F9F;
+	width:100%;
+	margin:0 auto;
+}
+div#Head
+{
+	width:900px;
+	height:170px;
+	margin:0 auto;
+}
+div#Logo
+{
+	position:relative;
+	top:40px;
+	width:410px;
+	height:110px;
+	margin:0 auto;
+}
+div#Navigator
+{
+	height:23px;
+	margin:0 auto;
+	background:#80BFD0;
+	padding-top:6px;
+	text-align:center;
+}
+div#Banner
+{
+	width:900px;
+	height:300px;
+	margin:0 auto;
+	text-align:center;
+}
+div#Banner img
+{
+	position:relative;
+	top:10px;
+	width:860px;
+	height:287px;
+}
+div#Body
+{
+	padding:20px 0px 50px 20%;
+	width:900px;
+	margin:0 auto;
+}
+div#LeftBox
+{
+	float:left;
+	margin-right:20px;
+	height:400px;
+	width:35%;
+}
+div#RightBox
+{
+	float:left;
+	height:400px;
+	width:40%;
+}
+div#Bottom
+{
+	clear:both;
+	text-align:center;
+	height:93px;
+	margin:0 auto;
+	background:url(../images/bottombg.jpg);
+}
+div#Bottom img
+{
+	position:relative;
+	top:30px;
+}
+.lbox
+{
+	float:left;
+	height:360px;
+	padding-top:20px;
+}
+.rbox
+{
+	padding-left:10px;
+	height:180px;
+	border-left:#000 1px dotted;
+	padding-top:20px;
+	padding-bottom:30px;
+	border-bottom:#000 1px dotted;
+}
+.rbox2
+{
+	padding-left:10px;
+	height:180px;
+	border-left:#000 1px dotted;
+	padding-top:20px;
+	padding-bottom:20px;
+}
+.title
+{
+	float:left;
+	line-height:13px;
+	font-size:14px;
+	font-family:黑体;
+	font-weight:bold;
+	margin-right:10px;
+	height:200px;
+}
+.text
+{
+	float:left;
+	line-height:0.5cm;
+}
+.word
+{
+	float:left;
+	background:transparent url(../images/icon.gif) repeat-y scroll 0 0;
+	padding-left:20px;
+}
+.word a
+{
+	text-decoration:none;
+	color:#000;
+}
+.word a:hover
+{
+	color:#EFA932;
+	border-bottom:dashed #EFA932;
+}
+.time
+{
+	float:right;
+	color:#EFA932;
+}
+.more
+{
+	float:right;
+	position:relative;
+	top:10px;
+	border:0xp;
+}
+div#Navigator a
+{
+	background:#19AFBE;
+	color:#FFF;
+	font-weight:bold;
+	text-align:center;
+	padding:7px 9px 7px 9px;
+	margin-right:10px;
+	text-decoration:none;
+}
+div#Navigator a:hover
+{
+	text-decoration:none;
+	color:#FFF;
+	background:#65BBCA;
+}

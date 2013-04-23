@@ -1,0 +1,26 @@
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, p, blockquote, th, td{ margin:0; padding:0; }
+li{ list-style:none; }
+a{ text-decoration:none; }
+table{ border-collapse:collapse; border-spacing:0; }
+img{ border:0; }
+.hd{ clear:both; }
+.mainbg{ background:#FFF; font:14px/1.5 Tahoma,Helvetica,arial,sans-serif; }
+#header{ background:#FFF; border-top:3px solid #FCA001; }
+#bodier{ min-height:500px; }
+#bodier .main{ margin-top:30px; }
+#footer{ margin-top:20px; }
+#topside{ height:120px; }
+#logo{ padding-left:37px; padding-top:15px; float:left; }
+#navigator{ height:42px; background:#FEEFD4; border-top:4px solid #FDBD4E; }
+.dcenter{ margin:0 auto; position:relative; width:960px; z-index:2; }
+#navigator .nav{ left:0; padding-left:8px; position:absolute; }
+#navigator .nav li{ float:left; }
+#navigator .nav a{ color:#D07405; float:left; font-size:16px; font-weight:bold; height:42px; line-height:42px; padding:0 30px; text-decoration:none; }
+#navigator .nav a:hover{ background-color:#FF9E2D; color:#FFF; text-decoration:none; }
+#city{ height:50px; width:80px; top:0; left:400px; position:absolute; background:#FCA001; }
+#header .refer{ background:#FCA001; color:#FFF; font-size:12px; height:25px; padding:7px 20px 0; position:absolute; right:0; text-align:center; top:0; width:290px; }
+#header .refer a{ color:#FFF; }
+#header .refer a:hover{ color:#000; }
+#header .login{ margin-left:480px; padding-top:53px; float:left; }
+#footer .bottom{ height:30px; background:#FBB98C; text-align:center; color:#552606; font-size:12px; padding-top:10px; }
+#footer .copyright{ height:20px; background:#FC6D30; text-align:center; color:#FFF; font-size:10px; padding-top:2px; }

@@ -1,0 +1,107 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>湖南商务职业技术学院 - 湖南省职业教育"十一五"重点建设项目</title>
+<link rel="stylesheet" type="text/css"  href="css.css" />
+<script type="text/javascript" src="dtree.js"></script>
+<script type="text/javascript" language="javascript">
+window.onload = function() {
+	autoHeight('Treeview','Treecontent');
+}
+function autoHeight() {
+  if (arguments.length > 1) {  //参数个数必须大于1才执行函数
+    
+    var x = arguments.length;  //计算参数个数
+    var elements=[];  //定义一个临时数组容器
+    //循环取出各个列的高度值
+    for (i=0; i<x; i++) {
+      elements.push(document.getElementById(arguments[i]).scrollHeight);
+    }
+    //用冒泡法取出最大列高的值
+    var max = elements[0];
+    for(i=0; i<x; i++) {
+      if(max < elements[i]) {
+        max = elements[i];
+      }
+    }
+    //再用循环将最大列高的值赋予各个列
+    for (i=0; i<x; i++) {
+      document.getElementById(arguments[i]).style.height = max+"px";
+    }
+  }
+}
+</script>
+<link rel="stylesheet" type="text/css"  href="dtree.css" />
+</head>
+
+<body>
+	<div id="Container">
+    	<div id="Header">
+        	<div id="Logo">
+        		<div id="Logo1"></div>
+        		<div id="Logo2"></div>
+            </div>
+</div>
+        
+        <div id="Navigator">
+        	<a href= "#">学院首页</a> <a href= "#">本站首页</a>
+			<a href= "#">示范性高职</a>
+			<a href= "#">精品专业</a>
+			<a href= "#">精品课程</a>
+			<a href= "#">专业带头人</a>
+        </div>
+        
+        <div id="Body">
+            <div id="Treeview" class="dtree">
+              <p>
+		<a href="javascript: d.openAll();">展开全部</a> |
+		<a href="javascript: d.closeAll();">关闭全部</a>
+	</p>
+	<script type="text/javascript">
+		<!--
+
+		var d = new dTree('d'); 
+		// Node(id, pid, name, url, title, target, icon, iconOpen, open) 
+		
+		d.add(0,-1,'导航','#','导航','_blank','','/images/tree/imgfolder.gif');
+			d.add(1,0,'专业一');
+				d.add(2,1,'A.项目建设规划书'); 
+				d.add(3,1,'B.项目年底建设情况报告书');
+				d.add(4,1,'C.项目年底建设情况表');
+				d.add(5,1,'D.附件');
+					d.add(6,5,'a.附件一','#','附件一','_blank');
+					d.add(7,5,'b.附件二','#','附件二','_blank');
+					d.add(8,5,'c.附件三','#','附件三','_blank');
+					
+			d.add(20,0,'专业二');
+				d.add(21,20,'A.项目建设规划书'); 
+				d.add(22,20,'B.项目年底建设情况报告书');
+				d.add(23,20,'C.项目年底建设情况表');
+				d.add(24,20,'D.附件');
+					d.add(25,24,'a.附件一','#','附件一','_blank');
+					d.add(26,24,'b.附件二','#','附件二','_blank');
+					d.add(27,24,'c.附件三','#','附件三','_blank');
+					
+		document.write(d);
+		
+		//-->
+	</script>
+            </div>
+            <div id="Treecontent">
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+            </div>
+      </div>
+        
+        <div id="Bottom">湖南商务职业技术学院 &copy; 2009-2019 版权所有<br />Copyright © 1998 - 2009 Hunan Vocatioanl College of Commerce. All Rights Reserved</div>
+    </div>
+</body>
+</html>

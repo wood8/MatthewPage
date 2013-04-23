@@ -1,0 +1,110 @@
+body
+{
+	font-size:12px;
+	background:url(images/b.gif);
+}
+div#center
+{ 
+	height:400px;
+	width:600px;
+	MARGIN-RIGHT: auto;
+	MARGIN-LEFT: auto; 
+	line-height:200px;
+	vertical-align:middle;
+	background:#000000;
+	padding:1px 1px 1px 1px;
+	z-index:1;
+}
+div#container
+{
+	height:400px;
+	width:600px;
+	MARGIN-RIGHT: auto;
+	MARGIN-LEFT: auto; 
+	border:#FFFFFF 1px solid;
+	z-index:2;
+}
+div#bg1
+{
+	height:128px;
+	width:600px;
+	MARGIN-RIGHT: auto;
+	MARGIN-LEFT: auto;
+	background:url(images/bg1.jpg);
+	z-index:2;
+}
+div#bg2
+{
+	height:141px;
+	width:600px;
+	MARGIN-RIGHT: auto;
+	MARGIN-LEFT: auto;
+	background:url(images/bg2.jpg);
+	z-index:2;
+}
+div#bg3
+{
+	height:131px;
+	width:600px;
+	MARGIN-RIGHT: auto;
+	MARGIN-LEFT: auto;
+	line-height:2px;
+	background:url(images/bg3.jpg);
+	z-index:2;
+}
+input#btnLogin,input#btnCancel
+{
+	color:#333333;
+	height:20px;
+	width:60px;
+	background:url(images/buttonbg.jpg);
+	border: solid 0px;
+ 	padding-top: 2px;
+}
+input#txtUser
+{
+	background-image: url(images/txtb1.gif);
+	background-position: left; 
+	background-repeat: no-repeat; 
+	background-attachment: fixed;
+    border-right: #ffffff 1px solid;
+    border-top: #ffffff 1px solid;
+    border-left: #ffffff 1px solid;
+    border-bottom: #ffffff 1px solid;
+    color:#003366;
+	padding:1px 1px 1px 1px;
+	padding-left:13px;
+	height:18px;
+	width:130px;
+}
+input#txtPwd
+{
+	background-image: url(images/txtb2.gif);
+	background-position: left; 
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+    border-right: #ffffff 1px solid;
+    border-top: #ffffff 1px solid;
+    border-left: #ffffff 1px solid;
+    border-bottom: #ffffff 1px solid;
+    color:#003366;
+	padding:1px 1px 1px 1px;
+	padding-left:13px;
+	height:18px;
+	width:130px;
+}
+div#login
+{
+	text-align:left;
+	position:relative;
+	left:130px;
+}
+select
+{
+    border-right: #ffffff 1px solid;
+    border-top: #ffffff 1px solid;
+    border-left: #ffffff 1px solid;
+    border-bottom: #ffffff 1px solid;
+    color:#003366;
+    font-size: 12px;
+}
